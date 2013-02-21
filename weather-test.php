@@ -16,11 +16,15 @@
 ?>
 
 <h2>
-<?php echo $weather_output->weather;?>
-<?php echo $weather_output->temp_f;?>
-<?php echo $weather_output->wind_string;?>
+<?php 
 
+echo $weather_output->weather . "<br>";
+echo $weather_output->temp_f . "<br>";
+echo $weather_output->wind_string . "<br>";
+
+?>
 </h2>
+
 <?php 
 /* ASSIGN MY FACEBOOK  */
 				$graph_url = file_get_contents('https://graph.facebook.com/jgabriel.lloyd');
