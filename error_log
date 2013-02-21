@@ -1,0 +1,8 @@
+[20-Feb-2013 15:20:07] PHP Parse error:  syntax error, unexpected ';' in /home1/tmrktcom/public_html/createmate.co/foursquare-whatshot/index.php on line 36
+[20-Feb-2013 15:20:11] PHP Parse error:  syntax error, unexpected ';' in /home1/tmrktcom/public_html/createmate.co/foursquare-whatshot/index.php on line 36
+[20-Feb-2013 15:43:01] PHP Parse error:  syntax error, unexpected ';' in /home1/tmrktcom/public_html/createmate.co/foursquare-whatshot/index.php on line 35
+[20-Feb-2013 15:43:04] PHP Parse error:  syntax error, unexpected ';' in /home1/tmrktcom/public_html/createmate.co/foursquare-whatshot/index.php on line 35
+[20-Feb-2013 15:48:31] PHP Warning:  file_get_contents(https://api.foursquare.com/v2/venues/trending?ll=40.7,-74?limit=20?radius=100&amp;oauth_token=BQEPEMYIFHHH2C1OGBTJDI4GBYV5HQAPNFLR5ON1JIAI42GN&amp;v=20130220) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home1/tmrktcom/public_html/createmate.co/foursquare-whatshot/index.php on line 20
+[20-Feb-2013 15:48:34] PHP Warning:  file_get_contents(https://api.foursquare.com/v2/venues/trending?ll=40.7,-74?limit=20?radius=100&amp;oauth_token=BQEPEMYIFHHH2C1OGBTJDI4GBYV5HQAPNFLR5ON1JIAI42GN&amp;v=20130220) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home1/tmrktcom/public_html/createmate.co/foursquare-whatshot/index.php on line 20
