@@ -15,6 +15,8 @@
 //weatherunderground api query
 	// try to make the area dynamically change the location.
 	// Currently, we are not getting the Twilio city/state.  It's pulling the API request as a static element.
+	// This thread on Stackoverflow might be helpful: http://stackoverflow.com/questions/1485031/looping-and-file-get-contents-in-php?rq=1
+	
 	// Reference URL: http://www.wunderground.com/weather/api/d/docs?d=data/conditions
 	// Examples of weather_url strings:
 	//		to get by zip code: http://api.wunderground.com/api/55f2cd0398a1022a/conditions/q/10036.json
