@@ -21,6 +21,7 @@
 	//try to make the area dynamically change the location.
 	// Reference URL: http://www.wunderground.com/weather/api/d/docs?d=data/conditions
 	$weather_url = file_get_contents("http://api.wunderground.com/api/55f2cd0398a1022a/conditions/q/19530.json");
+	//$weather_url = file_get_contents("http://api.wunderground.com/api/55f2cd0398a1022a/conditions/q/\"echo $statecode\"/\"echo $citycode\".json");
 	$weather_output = json_decode($weather_url);
 	
 	//and then we have to make each element a variable so Twilio can read it
@@ -38,5 +39,5 @@
 ?>
 
 <Response>
-	<Say voice="woman">The weather for <?php echo $citycode ?>, <?php echo $statecode ?> is currently <?php echo $w_conditions ?> with a temperature of <?php echo $w_temp_f ?> with winds <?php echo $w_wind_string ?>. Enjoy your day! Good-bye!</Say>
+	<Say voice="woman">The weather for <?php echo $citycode ?> is currently <?php echo $w_conditions ?> with a temperature of <?php echo $w_temp_f ?> with winds <?php echo $w_wind_string ?>. Enjoy your day! Good-bye!</Say>
 </Response>
